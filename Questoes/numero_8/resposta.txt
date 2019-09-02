@@ -1,0 +1,20 @@
+PADRÕES DE PROJETO:
+
+
+MVC:
+
+Esse padrão é o que mais é utilizados pelos frameworks atuais, pois ele trabalha
+com as camadas que na orientação objetos separa bem as partes , onde o :
+
+MODEL-> Camada de negócio
+Controler-> faz intermediária entre as camadas de model(modelo) e view (visão) 
+View-> Onde temos o template da aplicação, as telas que serão exibidas para o usuário.
+
+
+Observer:
+
+Ele trabalha com conceito um para muitos entre os objetos de modo quando um objeto muda
+seu estado os outros ficam na escuta aguardando, ai todos são notificados e atualizados 
+automaticamente, o laravel na sua engine utiliza esse modelo.
+
+

@@ -1,0 +1,4 @@
+select reply.TB_ESTADO.nome_estado,count(reply.TB_CIDADE.id_estado) as contador
+from reply.TB_ESTADO join reply.TB_CIDADE ON reply.TB_ESTADO.id = reply.TB_CIDADE.id_estado 
+GROUP BY reply.TB_CIDADE.id_estado
+having contador=100

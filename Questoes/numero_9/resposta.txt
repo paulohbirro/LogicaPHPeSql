@@ -1,0 +1,15 @@
+Laravel:
+
+No momento estou utilizando Laravel para criações de APIs Rest e sistemas .
+
+Codeigniter:
+
+Já utilizei para construção de web sites, como lojas virtuais e sistemas simples.
+
+Lumen:
+
+Para pequenas Apis ou coisas mais rapidas
+
+SmartPHP:
+
+A muitos anos atrás ele foi descontinuado.

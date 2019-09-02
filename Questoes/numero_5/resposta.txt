@@ -1,0 +1,8 @@
+ SELECT id,
+           id_menu_pai,
+           LEVEL,
+           LPAD (' ',(LEVEL - 1) * 3, '-') || campo AS "nome_menu"
+      FROM TB_MENU
+START WITH id_menu_pai IS NULL
+CONNECT BY PRIOR id = id_menu_pai
+ORDER BY id ASC, id_menu_pai ASC, campo ASC;
